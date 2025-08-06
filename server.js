@@ -4,7 +4,7 @@ import mysql from 'mysql2/promise';
 import { v4 as uuidv4 } from 'uuid';
 import dotenv from 'dotenv';
 
-dotenv.config({ path: '/Users/devtomiwa/Documents/ripple-websocket-server/.env.local' });
+dotenv.config();
 
 // Database connection
 const db = mysql.createPool({
