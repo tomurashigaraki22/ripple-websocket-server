@@ -64,7 +64,7 @@ io.on('connection', (socket) => {
         socket.emit('recent_messages', messages);
 
     } catch (error) {
-      alert(`Error joining room: ${error.message}`)
+      console.log(`Error joining room: ${error.message}`)
       socket.emit('error', error.message);
     }
   });
