@@ -1,0 +1,21 @@
+{
+  "name": "ripple-websocket-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+"scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "mysql2": "^3.14.3",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0"
+  }
+}
